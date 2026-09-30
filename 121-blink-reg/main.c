@@ -18,10 +18,10 @@ int main()
 
     while(1)
     {
-        //gpio_put(LED_PIN, 1);
+        //g pio_put(LED_PIN, 1);
         *gpio_out_set = led_mask;
         sleep_ms(250);
-        //gpio_put(LED_PIN, 0);
+        //g pio_put(LED_PIN, 0);
         *gpio_out_clr = led_mask;
         sleep_ms(1000);
     }
