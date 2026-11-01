@@ -9,7 +9,7 @@ set(PICO_PLATFORM rp2040)
 # Подключение SDK
 include(pico_sdk_import.cmake)
 
-project(121_blink_reg) # создается переменна ${PROJECT_NAME}
+project(121_blink_reg)
 
 pico_sdk_init()
 
