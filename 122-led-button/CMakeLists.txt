@@ -9,7 +9,7 @@ set(PICO_PLATFORM rp2040)
 # Подключение SDK
 include(pico_sdk_import.cmake)
 
-project(122_blink_button)
+project(122_led_button)
 
 pico_sdk_init()
 
